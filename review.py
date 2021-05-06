@@ -27,3 +27,12 @@ start = time.time()
 
 # Calculate the running time
 print("time: ", time.time() -start)
+
+
+#Variadic Parameters(*)
+def print_names(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+print_names('richard', 'daniel', A ='okyong')
+
